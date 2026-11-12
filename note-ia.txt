@@ -1,0 +1,32 @@
+NOTE EXPLICATIVE SUR L'UTILISATION DE L'INTELLIGENCE ARTIFICIELLE
+
+Projet : Street Love 3x3 — site statique de présentation d'un tournoi de basket 3x3
+Étudiant : Taha Issami
+Formation : Master 2 STAPS Management du sport, parcours MELS-CP
+Université : Université Paris Nanterre
+
+Outil utilisé
+ChatGPT a été utilisé comme outil d'assistance générative.
+
+Utilisation de l'outil
+L'outil a servi à préparer une première version de la structure du site, à générer le code HTML des cinq pages, la feuille de style CSS, un petit script JavaScript pour le menu mobile et le retour visuel du formulaire, ainsi qu'à organiser les textes de présentation du projet événementiel fictif.
+
+Modifications et vérifications manuelles à effectuer par l'étudiant
+Avant le rendu final, l'étudiant doit relire et reformuler les contenus, vérifier les informations relatives à sa formation et à son parcours, modifier au moins certains titres et éléments de design, tester tous les liens de navigation, contrôler l'affichage des images et tester le formulaire. Les modifications réellement effectuées doivent être décrites ici avec précision.
+
+Visuels
+Les visuels SVG présents dans le dossier images ont été créés spécifiquement pour cette maquette. Ils ne sont pas des photographies provenant d'un site tiers.
+
+Limites du prototype
+Street Love 3x3 est un événement fictif conçu pour un exercice universitaire. Le site est statique. Le formulaire sert uniquement à démontrer la validation HTML et l'affichage d'un message local ; il n'envoie ni n'enregistre de données.
+
+
+Vérifications effectuées :
+- Relecture initiale et vérification de la structure du projet.
+- Ouverture du site en local dans un navigateur.
+- Vérification visuelle de la page d'accueil.
+- Vérification de la nouvelle section « Notre vision » après son intégration.
+- Vérification de l'affichage des modifications CSS.
+
+Vérifications restant à effectuer :
+- Tester le formulaire et son message de confirmation.

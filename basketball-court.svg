@@ -1,0 +1,59 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+<title id="title">Terrain de basket Street Love 3x3</title>
+<desc id="desc">Illustration graphique orange et crème d'un terrain extérieur de basket avec panier et ballon.</desc>
+
+<defs>
+  <pattern id="grain" width="16" height="16" patternUnits="userSpaceOnUse">
+    <circle cx="3" cy="4" r="1" fill="#f4f2eb" opacity=".12"/>
+    <circle cx="12" cy="11" r=".8" fill="#f4f2eb" opacity=".1"/>
+  </pattern>
+</defs>
+
+<rect width="900" height="900" fill="#20221c"/>
+<path d="M0 600 L900 360 L900 900 L0 900Z" fill="#ff5a24"/>
+<path d="M0 650 L900 410 M0 750 L900 510 M0 850 L900 610" stroke="#f4f2eb" stroke-width="3" opacity=".65"/>
+<path d="M0 680 L900 440 M0 780 L900 540 M0 880 L900 640" stroke="#20221c" stroke-width="2" opacity=".4"/>
+<path d="M80 0 L80 900 M220 0 L220 900 M360 0 L360 900" stroke="#f4f2eb" stroke-width="2" opacity=".1"/>
+
+<!-- Basketball hoop -->
+<g transform="translate(420 290)">
+
+  <!-- Support pole -->
+  <path d="M230 0 V330" fill="none" stroke="#f4f2eb" stroke-width="14"/>
+
+  <!-- Support arm -->
+  <path d="M230 45 L190 35" fill="none" stroke="#f4f2eb" stroke-width="8"/>
+
+  <!-- Backboard: aligned with top of support pole -->
+  <rect x="75" y="0" width="115" height="95" rx="3" fill="#f4f2eb"/>
+  <rect x="98" y="17" width="69" height="52" fill="none" stroke="#20221c" stroke-width="5"/>
+
+  <!-- Rim: directly underneath backboard -->
+  <path d="M132.5 95 V110" stroke="#f4f2eb" stroke-width="5"/>
+  <ellipse cx="132.5" cy="115" rx="48" ry="11" fill="none" stroke="#d7f36b" stroke-width="9"/>
+
+  <!-- Net -->
+  <path d="M90.5 118 L103.5 175 L132.5 183 L161.5 175 L174.5 118
+           M103.5 175 L132.5 118 L161.5 175
+           M90.5 118 L132.5 183 L174.5 118"
+        fill="none" stroke="#f4f2eb" stroke-width="3"/>
+</g>
+
+<!-- Basketball -->
+<g transform="translate(280 480) rotate(-18)">
+  <circle r="112" fill="#d7f36b"/>
+  <circle r="112" fill="none" stroke="#20221c" stroke-width="8"/>
+  <path d="M-112 0 H112 M0 -112 V112 M-80 -80 Q0 0 -80 80 M80 -80 Q0 0 80 80" fill="none" stroke="#20221c" stroke-width="8"/>
+</g>
+
+<!-- Grain texture -->
+<rect width="900" height="900" fill="url(#grain)"/>
+
+<!-- Typography -->
+<text x="48" y="88" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="7" fill="#d7f36b">STREET LOVE / 3X3</text>
+<text x="48" y="150" font-family="Arial,sans-serif" font-size="68" font-weight="900" fill="#f4f2eb">PLAY</text>
+<text x="48" y="215" font-family="Arial,sans-serif" font-size="68" font-weight="900" fill="#f4f2eb">WITH</text>
+<text x="48" y="280" font-family="Arial,sans-serif" font-size="68" font-weight="900" fill="#ff5a24">LOVE.</text>
+
+</svg>

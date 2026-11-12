@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulaire de démonstration pour le projet pédagogique Street Love 3x3.">
+  <title>Inscription | Street Love 3x3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Street Love 3x3, accueil"><span class="brand-mark">SL<span>3</span></span><span class="brand-name">STREET LOVE <small>3X3 • LE BASKET POUR TOUS</small></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="navigation">Menu</button>
+    <nav id="navigation" class="site-nav" aria-label="Navigation principale"><a href="index.html">Le projet</a><a href="evenement.html">Le tournoi</a><a href="programme.html">Programme</a><a href="informations.html">Infos pratiques</a><a class="nav-cta active" aria-current="page" href="inscription.html">S'inscrire <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="contenu">
+    <section class="page-hero page-hero-compact"><div class="section-wrap page-hero-grid"><div><p class="eyebrow"><span class="eyebrow-line"></span> 05 / REJOINDRE LE MOUVEMENT</p><h1>Ta place est<br><span>sur le terrain.</span></h1><p class="hero-intro">Ce formulaire illustre les informations qui pourraient être demandées pour participer à Street Love 3x3. Il s'agit d'une démonstration : aucune inscription ne sera transmise ni enregistrée.</p></div><div class="page-hero-image"><img src="images/street-court.svg" alt="Illustration d'un terrain de streetball"></div></div></section>
+    <section class="section-wrap form-layout">
+      <div class="form-aside"><p class="eyebrow">AVANT DE REMPLIR</p><h2>Le basket est plus fort quand on le partage.</h2><p>Que tu joues depuis dix ans ou que tu aies envie de découvrir le 3x3, l'objectif est de créer une expérience sportive conviviale, inclusive et compétitive dans le bon esprit.</p><div class="form-promise"><span>01</span><p><strong>Respect</strong><br>Chacun joue sans discrimination.</p></div><div class="form-promise"><span>02</span><p><strong>Collectif</strong><br>On gagne ensemble, on apprend ensemble.</p></div><div class="form-promise"><span>03</span><p><strong>Plaisir</strong><br>Le jeu reste au centre.</p></div></div>
+      <form class="registration-form" id="registration-form">
+        <div class="form-heading"><p class="eyebrow">FORMULAIRE DE DÉMONSTRATION</p><h2>Parle-nous de toi.</h2><p>Les champs marqués d'un astérisque sont obligatoires.</p></div>
+        <div class="form-row"><label for="prenom">Prénom *</label><input id="prenom" name="prenom" type="text" autocomplete="given-name" required placeholder="Ton prénom"></div>
+        <div class="form-row"><label for="nom">Nom *</label><input id="nom" name="nom" type="text" autocomplete="family-name" required placeholder="Ton nom"></div>
+        <div class="form-row"><label for="email">Adresse e-mail *</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="toi@exemple.fr"></div>
+        <div class="form-row"><label for="age">Tranche d'âge *</label><select id="age" name="age" required><option value="">Choisir une tranche</option><option>Moins de 12 ans (avec représentant légal)</option><option>12–15 ans</option><option>16–17 ans</option><option>18–34 ans</option><option>35 ans et plus</option></select></div>
+        <div class="form-row"><label for="format">Format souhaité *</label><select id="format" name="format" required><option value="">Choisir un format</option><option>Tournoi 3x3 - niveau découverte</option><option>Tournoi 3x3 - niveau intermédiaire</option><option>Tournoi 3x3 - niveau confirmé</option><option>Animation et défis d'adresse</option><option>Je souhaite être orienté vers un format adapté</option></select></div>
+        <fieldset class="form-row"><legend>Comment souhaites-tu participer ? *</legend><label class="radio-option"><input type="radio" name="participation" value="equipe" required> Avec une équipe déjà constituée</label><label class="radio-option"><input type="radio" name="participation" value="solo"> Seul·e, pour rejoindre une équipe</label><label class="radio-option"><input type="radio" name="participation" value="animation"> Aux animations, sans participer au tournoi</label></fieldset>
+        <div class="form-row"><label for="message">Un besoin ou une précision à partager (facultatif)</label><textarea id="message" name="message" rows="4" placeholder="Niveau de pratique, besoin d'accessibilité, question..."></textarea></div>
+        <label class="checkbox-option"><input type="checkbox" id="reglement" required> J'ai compris qu'il s'agit d'un formulaire de démonstration et que mes données ne seront pas envoyées. *</label>
+        <button class="button button-primary form-submit" type="submit">Tester le formulaire <span aria-hidden="true">↗</span></button>
+        <p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p>
+        <p class="form-smallprint">Ne saisis pas de données personnelles réelles. Ce formulaire fonctionne uniquement dans cette page de démonstration et ne transmet aucune information.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand brand-footer" href="index.html"><span class="brand-mark">SL<span>3</span></span><span class="brand-name">STREET LOVE <small>3X3 • LE BASKET POUR TOUS</small></span></a><p>Projet pédagogique fictif · M2 STAPS MOS · Université Paris Nanterre</p><a href="#contenu" class="back-top">Retour en haut ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>

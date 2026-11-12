@@ -1,0 +1,94 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" role="img" aria-labelledby="title desc">
+<title id="title">Playground urbain de basket</title>
+<desc id="desc">Illustration stylisée d'un terrain de streetball avec immeubles alignés sur la ligne de fond du terrain, panier correctement fixé et ballon.</desc>
+
+<!-- Background -->
+<rect width="900" height="650" fill="#d7f36b"/>
+<path d="M0 0H900V300L0 430Z" fill="#25271f"/>
+
+<!-- Buildings -->
+<g fill="#41443a">
+  <path d="M60 170 L170 154 L170 405 L60 421 Z"/>
+  <path d="M185 75 L335 53 L335 381 L185 403 Z"/>
+  <path d="M355 145 L460 130 L460 363 L355 379 Z"/>
+  <path d="M490 95 L635 74 L635 338 L490 359 Z"/>
+  <path d="M665 130 L835 105 L835 309 L665 334 Z"/>
+</g>
+
+<!-- Windows -->
+<g fill="#d7f36b" opacity=".88">
+  <path d="M80 195 L105 191 L105 221 L80 225 Z"/>
+  <path d="M125 188 L150 184 L150 214 L125 218 Z"/>
+  <path d="M80 250 L105 246 L105 276 L80 280 Z"/>
+  <path d="M125 243 L150 239 L150 269 L125 273 Z"/>
+
+  <path d="M210 105 L240 101 L240 136 L210 140 Z"/>
+  <path d="M265 97 L295 93 L295 128 L265 132 Z"/>
+  <path d="M210 165 L240 161 L240 196 L210 200 Z"/>
+  <path d="M265 157 L295 153 L295 188 L265 192 Z"/>
+  <path d="M210 225 L240 221 L240 256 L210 260 Z"/>
+  <path d="M265 217 L295 213 L295 248 L265 252 Z"/>
+
+  <path d="M375 170 L400 166 L400 198 L375 202 Z"/>
+  <path d="M420 164 L445 160 L445 192 L420 196 Z"/>
+  <path d="M375 225 L400 221 L400 253 L375 257 Z"/>
+  <path d="M420 219 L445 215 L445 247 L420 251 Z"/>
+
+  <path d="M515 125 L540 121 L540 155 L515 159 Z"/>
+  <path d="M565 118 L590 114 L590 148 L565 152 Z"/>
+  <path d="M515 185 L540 181 L540 215 L515 219 Z"/>
+  <path d="M565 178 L590 174 L590 208 L565 212 Z"/>
+  <path d="M515 245 L540 241 L540 275 L515 279 Z"/>
+  <path d="M565 238 L590 234 L590 268 L565 272 Z"/>
+
+  <path d="M690 160 L720 156 L720 190 L690 194 Z"/>
+  <path d="M755 150 L785 146 L785 180 L755 184 Z"/>
+  <path d="M690 215 L720 211 L720 245 L690 249 Z"/>
+  <path d="M755 205 L785 201 L785 235 L755 239 Z"/>
+</g>
+
+<!-- Court floor -->
+<path d="M0 430 L900 300 V650 H0 Z" fill="#ff5a24"/>
+
+<!-- Yellow boundary line -->
+<path d="M0 430 L900 300" fill="none" stroke="#d7f36b" stroke-width="6"/>
+
+<!-- Court markings -->
+<path d="M0 500 L900 370 M0 600 L900 470" stroke="#f4f2eb" stroke-width="4" opacity=".9"/>
+<path d="M160 650 L410 340 M420 650 L610 340 M680 650 L810 340" stroke="#25271f" stroke-width="3" opacity=".35"/>
+
+<!-- Basketball hoop -->
+<g>
+  <!-- Main support pole -->
+  <path d="M620 145 V445" fill="none" stroke="#f4f2eb" stroke-width="12" stroke-linecap="square"/>
+
+  <!-- Upper support arm -->
+  <path d="M620 165 H680" fill="none" stroke="#f4f2eb" stroke-width="8" stroke-linecap="square"/>
+
+  <!-- Backboard -->
+  <rect x="680" y="145" width="110" height="95" rx="2" fill="#f4f2eb"/>
+  <rect x="704" y="162" width="62" height="48" fill="none" stroke="#25271f" stroke-width="5"/>
+
+  <!-- Rim -->
+  <path d="M735 240 V255" fill="none" stroke="#f4f2eb" stroke-width="5"/>
+  <ellipse cx="735" cy="260" rx="42" ry="10" fill="none" stroke="#d7f36b" stroke-width="8"/>
+
+  <!-- Net -->
+  <path d="M697 262 L708 315 L735 322 L762 315 L773 262
+           M708 315 L735 262 L762 315
+           M697 262 L735 322 L773 262"
+        fill="none" stroke="#f4f2eb" stroke-width="3"/>
+</g>
+
+<!-- Basketball -->
+<g transform="translate(340 475) rotate(-12)">
+  <circle r="65" fill="#d7f36b" stroke="#25271f" stroke-width="6"/>
+  <path d="M-65 0 H65 M0 -65 V65 M-48 -48 Q0 0 -48 48 M48 -48 Q0 0 48 48"
+        fill="none" stroke="#25271f" stroke-width="6"/>
+</g>
+
+<!-- Headline -->
+<text x="38" y="55" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="6" fill="#ff5a24">THE PLAYGROUND IS YOURS</text>
+
+</svg>
